@@ -1,0 +1,19 @@
+{
+    "name": "chocannon/kelp",
+    "type": "library",
+    "description": "the swoole server lib",
+    "keywords": ["kelp", "swoole"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chocannon",
+            "email": "qinghecao@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": { "Kelp\\": "src" }
+    }
+}
