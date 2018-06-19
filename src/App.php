@@ -8,9 +8,10 @@ namespace Kelp;
 
 use Kelp\Component\DI;
 use Kelp\Component\Trigger;
+use Kelp\Common\Singleton;
+use Kelp\Utility\Config;
 use Kelp\Utility\Directory;
-use Kelp\Standard\Singleton;
-use Kelp\Swoole\ServerManager;
+use Kelp\Server\Manager;
 
 class App
 {
@@ -33,7 +34,7 @@ class App
      */
     public function run()
     {
-        ServerManager::instance()->start();
+        Manager::instance()->start();
     }
 
 
@@ -45,6 +46,8 @@ class App
     private function initialize()
     {
         DI::instance()->set('VERSION', self::VERSION);
+        $serverName = Config::instance()->get('server.name', 'SwooleServer');
+        DI::instance()->set('SERVER_TITLE', $serverName);
         $this->directoryInit();
         $this->errorHandle();
     }
@@ -59,17 +62,19 @@ class App
     {
         $tempPath = Config::instance()->get('app.dir.temp');
         if(empty($tempPath)){
-            $tempPath = APPLICATION_ROOT . '/temp/';
+            $tempPath = APPLICATION_ROOT . '/runtime/temp/';
+            Directory::create($tempPath);
             Config::instance()->set('app.dir.temp', $tempPath);
         }
         $logPath  = Config::instance()->get('app.dir.log');
         if(empty($logPath)){
-            $logPath  = APPLICATION_ROOT . '/log/';
+            $logPath  = APPLICATION_ROOT . '/runtime/log/';
+            Directory::create($logPath);
             Config::instance()->set('app.dir.log', $logPath);
         }
-        $servName = Config::instance()->get('server.main.serv_name', 'main_swoole');
-        Config::instance()->set('server.main.setting.pid_file', $tempPath . '/' . $servName . '.pid');
-        Config::instance()->set('server.main.setting.log_file', $logPath . '/' . $servName . '.log');
+        $serverName = DI::instance()->get('SERVER_TITLE');
+        Config::instance()->set('server.setting.pid_file', $tempPath . '/' . $serverName . '.pid');
+        Config::instance()->set('server.setting.log_file', $logPath . '/' . $serverName . '.log');
     }
 
 

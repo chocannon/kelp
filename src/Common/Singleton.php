@@ -4,7 +4,7 @@
 // +----------------------------------------------------------------------
 // | Author: qinghecao@outlook.com
 // +----------------------------------------------------------------------
-namespace Kelp\Standard;
+namespace Kelp\Common;
 
 trait Singleton
 {

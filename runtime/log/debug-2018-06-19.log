@@ -1,0 +1,875 @@
+[2018-06-19 12:19:18] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Swoole\Server::on(): unknown event types[request]
+
+[2018-06-19 12:19:19] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:45
+message:Uncaught Error: Class 'Kelp\Server\Invoker' not found in /var/www/kelp/src/Server/Manager.php:45
+Stack trace:
+#0 {main}
+  thrown
+
+[2018-06-19 12:19:19] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:45
+message:Uncaught Error: Class 'Kelp\Server\Invoker' not found in /var/www/kelp/src/Server/Manager.php:45
+Stack trace:
+#0 [internal function]: Kelp\Server\Manager->Kelp\Server\{closure}(Object(Swoole\Server))
+#1 /var/www/kelp/src/Server/Manager.php(49): Swoole\Server->start()
+#2 /var/www/kelp/src/Server/Manager.php(23): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 12:19:19] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:45
+message:Uncaught Error: Class 'Kelp\Server\Invoker' not found in /var/www/kelp/src/Server/Manager.php:45
+Stack trace:
+#0 {main}
+  thrown
+
+[2018-06-19 12:19:29] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Swoole\Server::on(): unknown event types[request]
+
+[2018-06-19 12:19:29] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:45
+message:Uncaught Error: Class 'Kelp\Server\Invoker' not found in /var/www/kelp/src/Server/Manager.php:45
+Stack trace:
+#0 [internal function]: Kelp\Server\Manager->Kelp\Server\{closure}(Object(Swoole\Server))
+#1 /var/www/kelp/src/Server/Manager.php(49): Swoole\Server->start()
+#2 /var/www/kelp/src/Server/Manager.php(23): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 12:19:29] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:45
+message:Uncaught Error: Class 'Kelp\Server\Invoker' not found in /var/www/kelp/src/Server/Manager.php:45
+Stack trace:
+#0 {main}
+  thrown
+
+[2018-06-19 12:19:29] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:45
+message:Uncaught Error: Class 'Kelp\Server\Invoker' not found in /var/www/kelp/src/Server/Manager.php:45
+Stack trace:
+#0 {main}
+  thrown
+
+[2018-06-19 12:20:16] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:47
+message:Swoole\Server::on(): unknown event types[request]
+
+[2018-06-19 12:20:16] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Undefined variable: item
+
+[2018-06-19 12:20:16] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Undefined variable: item
+
+[2018-06-19 12:20:16] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught TypeError: Argument 1 passed to Kelp\Component\Invoker::callUserFuncArray() must be callable, null given, called in /var/www/kelp/src/Server/Manager.php on line 46 and defined in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Invoker::callUserFuncArray(NULL, Array)
+#1 [internal function]: Kelp\Server\Manager->Kelp\Server\{closure}(Object(Swoole\Server))
+#2 /var/www/kelp/src/Server/Manager.php(50): Swoole\Server->start()
+#3 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#4 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#5 /var/www/kelp/index.php(12): Kelp\App->run()
+#6 {main}
+  thrown
+
+[2018-06-19 12:20:16] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Undefined variable: item
+
+[2018-06-19 12:20:16] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught TypeError: Argument 1 passed to Kelp\Component\Invoker::callUserFuncArray() must be callable, null given, called in /var/www/kelp/src/Server/Manager.php on line 46 and defined in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Invoker::callUserFuncArray(NULL, Array)
+#1 {main}
+  thrown
+
+[2018-06-19 12:20:16] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught TypeError: Argument 1 passed to Kelp\Component\Invoker::callUserFuncArray() must be callable, null given, called in /var/www/kelp/src/Server/Manager.php on line 46 and defined in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Invoker::callUserFuncArray(NULL, Array)
+#1 {main}
+  thrown
+
+[2018-06-19 12:22:44] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:50
+message:Swoole\Server::start(): require onReceive/onPacket callback
+
+[2018-06-19 12:23:10] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:47
+message:Swoole\Server::on(): unknown event types[request]
+
+[2018-06-19 12:23:10] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Undefined variable: item
+
+[2018-06-19 12:23:10] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Undefined variable: item
+
+[2018-06-19 12:23:10] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Undefined variable: item
+
+[2018-06-19 12:23:10] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught TypeError: Argument 1 passed to Kelp\Component\Invoker::callUserFuncArray() must be callable, null given, called in /var/www/kelp/src/Server/Manager.php on line 46 and defined in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Invoker::callUserFuncArray(NULL, Array)
+#1 {main}
+  thrown
+
+[2018-06-19 12:23:10] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught TypeError: Argument 1 passed to Kelp\Component\Invoker::callUserFuncArray() must be callable, null given, called in /var/www/kelp/src/Server/Manager.php on line 46 and defined in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Invoker::callUserFuncArray(NULL, Array)
+#1 {main}
+  thrown
+
+[2018-06-19 12:23:10] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught TypeError: Argument 1 passed to Kelp\Component\Invoker::callUserFuncArray() must be callable, null given, called in /var/www/kelp/src/Server/Manager.php on line 46 and defined in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Invoker::callUserFuncArray(NULL, Array)
+#1 [internal function]: Kelp\Server\Manager->Kelp\Server\{closure}(Object(Swoole\Server))
+#2 /var/www/kelp/src/Server/Manager.php(50): Swoole\Server->start()
+#3 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#4 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#5 /var/www/kelp/index.php(12): Kelp\App->run()
+#6 {main}
+  thrown
+
+[2018-06-19 12:23:43] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Undefined variable: item
+
+[2018-06-19 12:23:43] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Undefined variable: item
+
+[2018-06-19 12:23:43] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught TypeError: Argument 1 passed to Kelp\Component\Invoker::callUserFuncArray() must be callable, null given, called in /var/www/kelp/src/Server/Manager.php on line 46 and defined in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Invoker::callUserFuncArray(NULL, Array)
+#1 [internal function]: Kelp\Server\Manager->Kelp\Server\{closure}(Object(Swoole\Server))
+#2 /var/www/kelp/src/Server/Manager.php(50): Swoole\Server->start()
+#3 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#4 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#5 /var/www/kelp/index.php(12): Kelp\App->run()
+#6 {main}
+  thrown
+
+[2018-06-19 12:23:43] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught TypeError: Argument 1 passed to Kelp\Component\Invoker::callUserFuncArray() must be callable, null given, called in /var/www/kelp/src/Server/Manager.php on line 46 and defined in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Invoker::callUserFuncArray(NULL, Array)
+#1 {main}
+  thrown
+
+[2018-06-19 12:23:43] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Undefined variable: item
+
+[2018-06-19 12:23:43] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught TypeError: Argument 1 passed to Kelp\Component\Invoker::callUserFuncArray() must be callable, null given, called in /var/www/kelp/src/Server/Manager.php on line 46 and defined in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Invoker::callUserFuncArray(NULL, Array)
+#1 {main}
+  thrown
+
+[2018-06-19 12:23:47] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Undefined variable: item
+
+[2018-06-19 12:23:47] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Undefined variable: item
+
+[2018-06-19 12:23:47] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught TypeError: Argument 1 passed to Kelp\Component\Invoker::callUserFuncArray() must be callable, null given, called in /var/www/kelp/src/Server/Manager.php on line 46 and defined in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Invoker::callUserFuncArray(NULL, Array)
+#1 {main}
+  thrown
+
+[2018-06-19 12:23:47] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Undefined variable: item
+
+[2018-06-19 12:23:47] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught TypeError: Argument 1 passed to Kelp\Component\Invoker::callUserFuncArray() must be callable, null given, called in /var/www/kelp/src/Server/Manager.php on line 46 and defined in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Invoker::callUserFuncArray(NULL, Array)
+#1 [internal function]: Kelp\Server\Manager->Kelp\Server\{closure}(Object(Swoole\Server))
+#2 /var/www/kelp/src/Server/Manager.php(50): Swoole\Server->start()
+#3 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#4 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#5 /var/www/kelp/index.php(12): Kelp\App->run()
+#6 {main}
+  thrown
+
+[2018-06-19 12:23:47] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught TypeError: Argument 1 passed to Kelp\Component\Invoker::callUserFuncArray() must be callable, null given, called in /var/www/kelp/src/Server/Manager.php on line 46 and defined in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Invoker::callUserFuncArray(NULL, Array)
+#1 {main}
+  thrown
+
+[2018-06-19 12:24:28] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:47
+message:Swoole\Server::on(): unknown event types[request]
+
+[2018-06-19 12:26:06] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Uncaught Error: Cannot pass parameter 1 by reference in /var/www/kelp/src/Server/Manager.php:46
+Stack trace:
+#0 {main}
+  thrown
+
+[2018-06-19 12:26:06] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Uncaught Error: Cannot pass parameter 1 by reference in /var/www/kelp/src/Server/Manager.php:46
+Stack trace:
+#0 [internal function]: Kelp\Server\Manager->Kelp\Server\{closure}(Object(Swoole\Server))
+#1 /var/www/kelp/src/Server/Manager.php(50): Swoole\Server->start()
+#2 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 12:26:06] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:46
+message:Uncaught Error: Cannot pass parameter 1 by reference in /var/www/kelp/src/Server/Manager.php:46
+Stack trace:
+#0 {main}
+  thrown
+
+[2018-06-19 12:28:17] 
+code:1
+file:/var/www/kelp/src/Server/Event.php
+line:38
+message:Uncaught ArgumentCountError: Too few arguments to function Kelp\Server\Event::onManagerStart(), 0 passed in /var/www/kelp/src/Component/Invoker.php on line 63 and exactly 1 expected in /var/www/kelp/src/Server/Event.php:38
+Stack trace:
+#0 /var/www/kelp/src/Component/Invoker.php(63): Kelp\Server\Event->onManagerStart()
+#1 /var/www/kelp/src/Server/Manager.php(44): Kelp\Component\Invoker::callUserFuncArray(Array, Array)
+#2 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 12:29:02] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught ArgumentCountError: Too few arguments to function Kelp\Component\Invoker::callUserFuncArray(), 1 passed in /var/www/kelp/src/Server/Manager.php on line 45 and exactly 2 expected in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(45): Kelp\Component\Invoker::callUserFuncArray(Array)
+#1 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#2 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#3 /var/www/kelp/index.php(12): Kelp\App->run()
+#4 {main}
+  thrown
+
+[2018-06-19 12:29:18] 
+code:1
+file:/var/www/kelp/src/Server/Event.php
+line:38
+message:Uncaught ArgumentCountError: Too few arguments to function Kelp\Server\Event::onManagerStart(), 0 passed in /var/www/kelp/src/Component/Invoker.php on line 63 and exactly 1 expected in /var/www/kelp/src/Server/Event.php:38
+Stack trace:
+#0 /var/www/kelp/src/Component/Invoker.php(63): Kelp\Server\Event->onManagerStart()
+#1 /var/www/kelp/src/Server/Manager.php(45): Kelp\Component\Invoker::callUserFuncArray(Array, Array)
+#2 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 12:35:01] 
+code:1
+file:/var/www/kelp/src/Component/DI.php
+line:25
+message:Uncaught ArgumentCountError: Too few arguments to function Kelp\Component\DI::get(), 0 passed in /var/www/kelp/src/Server/Manager.php on line 43 and exactly 1 expected in /var/www/kelp/src/Component/DI.php:25
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(43): Kelp\Component\DI->get()
+#1 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#2 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#3 /var/www/kelp/index.php(12): Kelp\App->run()
+#4 {main}
+  thrown
+
+[2018-06-19 12:45:45] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:48
+message:Swoole\Server::start(): require onReceive/onPacket callback
+
+[2018-06-19 12:48:48] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:41
+message:Uncaught TypeError: Argument 1 passed to Kelp\Server\Manager::Kelp\Server\{closure}() must be an instance of Kelp\Server\Server, instance of Swoole\Server given in /var/www/kelp/src/Server/Manager.php:41
+Stack trace:
+#0 [internal function]: Kelp\Server\Manager->Kelp\Server\{closure}(Object(Swoole\Server))
+#1 /var/www/kelp/src/Server/Manager.php(64): Swoole\Server->start()
+#2 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 12:48:48] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:45
+message:Uncaught TypeError: Argument 1 passed to Kelp\Server\Manager::Kelp\Server\{closure}() must be an instance of Kelp\Server\Server, instance of Swoole\Server given in /var/www/kelp/src/Server/Manager.php:45
+Stack trace:
+#0 {main}
+  thrown
+
+[2018-06-19 12:48:48] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:45
+message:Uncaught TypeError: Argument 1 passed to Kelp\Server\Manager::Kelp\Server\{closure}() must be an instance of Kelp\Server\Server, instance of Swoole\Server given in /var/www/kelp/src/Server/Manager.php:45
+Stack trace:
+#0 {main}
+  thrown
+
+[2018-06-19 12:49:25] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:51
+message:Uncaught Error: Class 'Kelp\Server\ProcessManager' not found in /var/www/kelp/src/Server/Manager.php:51
+Stack trace:
+#0 {main}
+  thrown
+
+[2018-06-19 12:49:25] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:43
+message:Uncaught Error: Class 'Kelp\Server\ProcessManager' not found in /var/www/kelp/src/Server/Manager.php:43
+Stack trace:
+#0 [internal function]: Kelp\Server\Manager->Kelp\Server\{closure}(Object(Swoole\Server))
+#1 /var/www/kelp/src/Server/Manager.php(64): Swoole\Server->start()
+#2 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 12:49:25] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:51
+message:Uncaught Error: Class 'Kelp\Server\ProcessManager' not found in /var/www/kelp/src/Server/Manager.php:51
+Stack trace:
+#0 {main}
+  thrown
+
+[2018-06-19 12:58:09] 
+code:8
+file:/var/www/kelp/src/Server/Manager.php
+line:41
+message:Undefined property: Kelp\Server\Manager::$swoole
+
+[2018-06-19 12:58:09] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:41
+message:Uncaught Error: Call to a member function on() on null in /var/www/kelp/src/Server/Manager.php:41
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#1 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#2 /var/www/kelp/index.php(12): Kelp\App->run()
+#3 {main}
+  thrown
+
+[2018-06-19 13:04:31] 
+code:1
+file:/var/www/kelp/src/Component/Invoker.php
+line:55
+message:Uncaught ArgumentCountError: Too few arguments to function Kelp\Component\Invoker::callUserFuncArray(), 1 passed in /var/www/kelp/src/Server/Manager.php on line 44 and exactly 2 expected in /var/www/kelp/src/Component/Invoker.php:55
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(44): Kelp\Component\Invoker::callUserFuncArray(Array)
+#1 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#2 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#3 /var/www/kelp/index.php(12): Kelp\App->run()
+#4 {main}
+  thrown
+
+[2018-06-19 13:05:49] 
+code:1
+file:/var/www/kelp/src/Server/Event.php
+line:79
+message:Uncaught ArgumentCountError: Too few arguments to function Kelp\Server\Event::onRequest(), 0 passed in /var/www/kelp/src/Component/Invoker.php on line 63 and exactly 2 expected in /var/www/kelp/src/Server/Event.php:79
+Stack trace:
+#0 /var/www/kelp/src/Component/Invoker.php(63): Kelp\Server\Event->onRequest()
+#1 /var/www/kelp/src/Server/Manager.php(44): Kelp\Component\Invoker::callUserFuncArray(Array, Array)
+#2 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 13:06:04] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:44
+message:Swoole\Server::on(): unknown event types[request]
+
+[2018-06-19 13:09:10] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:51
+message:Swoole\Server::start(): failed to start server. Error: swServer_start_check: onTask is null
+
+[2018-06-19 13:11:20] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:51
+message:Swoole\Server::start(): failed to start server. Error: swServer_start_check: onFinish is null
+
+[2018-06-19 13:12:40] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:51
+message:Swoole\Server::start(): failed to start server. Error: swServer_start_check: onFinish is null
+
+[2018-06-19 13:20:54] 
+code:1
+file:/var/www/kelp/src/Server/Event.php
+line:43
+message:Uncaught ArgumentCountError: Too few arguments to function Kelp\Server\Event::Kelp\Server\{closure}(), 0 passed in /var/www/kelp/src/Component/Invoker.php on line 58 and exactly 1 expected in /var/www/kelp/src/Server/Event.php:43
+Stack trace:
+#0 /var/www/kelp/src/Component/Invoker.php(58): Kelp\Server\Event->Kelp\Server\{closure}()
+#1 /var/www/kelp/src/Server/Manager.php(48): Kelp\Component\Invoker::callUserFuncArray(Object(Closure), Array)
+#2 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 13:22:53] 
+code:1
+file:/var/www/kelp/src/Server/Event.php
+line:43
+message:Uncaught ArgumentCountError: Too few arguments to function Kelp\Server\Event::Kelp\Server\{closure}(), 0 passed in /var/www/kelp/src/Component/Invoker.php on line 58 and exactly 1 expected in /var/www/kelp/src/Server/Event.php:43
+Stack trace:
+#0 /var/www/kelp/src/Component/Invoker.php(58): Kelp\Server\Event->Kelp\Server\{closure}()
+#1 /var/www/kelp/src/Server/Manager.php(49): Kelp\Component\Invoker::callUserFuncArray(Object(Closure), Array)
+#2 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 13:25:28] 
+code:8
+file:/var/www/kelp/src/Server/Event.php
+line:34
+message:Undefined variable: self
+
+[2018-06-19 13:25:28] 
+code:1
+file:/var/www/kelp/src/Server/Event.php
+line:34
+message:Uncaught Error: Class name must be a valid object or a string in /var/www/kelp/src/Server/Event.php:34
+Stack trace:
+#0 /var/www/kelp/src/Common/Singleton.php(15): Kelp\Server\Event->__construct()
+#1 /var/www/kelp/src/Server/Manager.php(44): Kelp\Server\Event::instance()
+#2 /var/www/kelp/src/Server/Manager.php(24): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 14:18:09] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:56
+message:Swoole\Server\Port::set(): ssl cert file[] not found.
+
+[2018-06-19 14:19:49] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:56
+message:Swoole\Server\Port::set(): ssl cert file[] not found.
+
+[2018-06-19 14:20:23] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:56
+message:Swoole\Server\Port::set(): swPort_enable_ssl_encrypt() failed.
+
+[2018-06-19 14:20:48] 
+code:8
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:25
+message:Undefined index: ssl_key_file
+
+[2018-06-19 14:20:48] 
+code:8
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:26
+message:Undefined index: ssl_cert_file
+
+[2018-06-19 14:20:48] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:56
+message:Swoole\Server\Port::set(): swPort_enable_ssl_encrypt() failed.
+
+[2018-06-19 14:21:12] 
+code:8
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:25
+message:Undefined index: ssl_key_file
+
+[2018-06-19 14:21:12] 
+code:8
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:26
+message:Undefined index: ssl_cert_file
+
+[2018-06-19 14:21:12] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:56
+message:Swoole\Server\Port::set(): swPort_enable_ssl_encrypt() failed.
+
+[2018-06-19 14:21:28] 
+code:8
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:25
+message:Undefined index: ssl_key_file
+
+[2018-06-19 14:21:28] 
+code:8
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:26
+message:Undefined index: ssl_cert_file
+
+[2018-06-19 14:21:28] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:56
+message:Swoole\Server\Port::set(): swPort_enable_ssl_encrypt() failed.
+
+[2018-06-19 14:24:00] 
+code:8
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:25
+message:Undefined index: ssl_key_file
+
+[2018-06-19 14:24:00] 
+code:8
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:25
+message:Undefined index: ssl_key_file
+
+[2018-06-19 14:24:00] 
+code:2
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:45
+message:Swoole\Server::listen() expects exactly 3 parameters, 4 given
+
+[2018-06-19 14:24:00] 
+code:1
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:50
+message:Uncaught Error: Call to a member function set() on null in /var/www/kelp/src/Component/Port/Manager.php:50
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Port\Manager::bind(Object(Swoole\Server), 'tcp')
+#1 /var/www/kelp/src/Server/Manager.php(25): Kelp\Server\Manager->createServer()
+#2 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#3 /var/www/kelp/index.php(12): Kelp\App->run()
+#4 {main}
+  thrown
+
+[2018-06-19 14:24:25] 
+code:2
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:45
+message:Swoole\Server::listen() expects exactly 3 parameters, 4 given
+
+[2018-06-19 14:24:25] 
+code:1
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:50
+message:Uncaught Error: Call to a member function set() on null in /var/www/kelp/src/Component/Port/Manager.php:50
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Port\Manager::bind(Object(Swoole\Server), 'tcp')
+#1 /var/www/kelp/src/Server/Manager.php(25): Kelp\Server\Manager->createServer()
+#2 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#3 /var/www/kelp/index.php(12): Kelp\App->run()
+#4 {main}
+  thrown
+
+[2018-06-19 14:25:11] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:37
+message:Swoole\Server::__construct(): can't use multi-threading in PHP. reset server mode to be SWOOLE_MODE_BASE
+
+[2018-06-19 14:25:11] 
+code:1
+file:/var/www/kelp/src/Server/Event.php
+line:49
+message:Uncaught Error: Call to undefined method Kelp\Server\Event::onOpen() in /var/www/kelp/src/Server/Event.php:49
+Stack trace:
+#0 /var/www/kelp/src/Component/Port/Manager.php(56): Kelp\Server\Event->fire('websocket')
+#1 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Port\Manager::bind(Object(Swoole\Server), 'tcp')
+#2 /var/www/kelp/src/Server/Manager.php(25): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 14:26:17] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:37
+message:Only arrays and Traversables can be unpacked
+
+[2018-06-19 14:26:17] 
+code:2
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:42
+message:Only arrays and Traversables can be unpacked
+
+[2018-06-19 14:26:17] 
+code:2
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:42
+message:Swoole\Server::listen() expects exactly 3 parameters, 2 given
+
+[2018-06-19 14:26:17] 
+code:1
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:47
+message:Uncaught Error: Call to a member function set() on null in /var/www/kelp/src/Component/Port/Manager.php:47
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Port\Manager::bind(Object(Swoole\Server), 'tcp')
+#1 /var/www/kelp/src/Server/Manager.php(25): Kelp\Server\Manager->createServer()
+#2 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#3 /var/www/kelp/index.php(12): Kelp\App->run()
+#4 {main}
+  thrown
+
+[2018-06-19 14:26:21] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:37
+message:Only arrays and Traversables can be unpacked
+
+[2018-06-19 14:26:21] 
+code:2
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:42
+message:Only arrays and Traversables can be unpacked
+
+[2018-06-19 14:26:21] 
+code:2
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:42
+message:Swoole\Server::listen() expects exactly 3 parameters, 2 given
+
+[2018-06-19 14:26:21] 
+code:1
+file:/var/www/kelp/src/Component/Port/Manager.php
+line:47
+message:Uncaught Error: Call to a member function set() on null in /var/www/kelp/src/Component/Port/Manager.php:47
+Stack trace:
+#0 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Port\Manager::bind(Object(Swoole\Server), 'tcp')
+#1 /var/www/kelp/src/Server/Manager.php(25): Kelp\Server\Manager->createServer()
+#2 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#3 /var/www/kelp/index.php(12): Kelp\App->run()
+#4 {main}
+  thrown
+
+[2018-06-19 14:26:41] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:37
+message:Only arrays and Traversables can be unpacked
+
+[2018-06-19 14:26:41] 
+code:1
+file:/var/www/kelp/src/Server/Event.php
+line:49
+message:Uncaught Error: Call to undefined method Kelp\Server\Event::onOpen() in /var/www/kelp/src/Server/Event.php:49
+Stack trace:
+#0 /var/www/kelp/src/Component/Port/Manager.php(56): Kelp\Server\Event->fire('websocket')
+#1 /var/www/kelp/src/Server/Manager.php(46): Kelp\Component\Port\Manager::bind(Object(Swoole\Server), 'tcp')
+#2 /var/www/kelp/src/Server/Manager.php(25): Kelp\Server\Manager->createServer()
+#3 /var/www/kelp/src/App.php(37): Kelp\Server\Manager->start()
+#4 /var/www/kelp/index.php(12): Kelp\App->run()
+#5 {main}
+  thrown
+
+[2018-06-19 14:27:25] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:37
+message:Only arrays and Traversables can be unpacked
+
+[2018-06-19 15:02:47] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:43
+message:Swoole\Server::on(): unknown event types[request]
+
+[2018-06-19 15:05:47] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:43
+message:Swoole\Server::on(): unknown event types[request]
+
+[2018-06-19 15:05:47] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:48
+message:Swoole\Server::start(): require onReceive/onPacket callback
+
+[2018-06-19 15:07:57] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:44
+message:Swoole\Server::on(): unknown event types[request]
+
+[2018-06-19 15:07:57] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:49
+message:Swoole\Server::start(): require onReceive/onPacket callback
+
+[2018-06-19 15:32:01] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:43
+message:Swoole\Server::on(): unknown event types[request]
+
+[2018-06-19 15:32:01] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:48
+message:Swoole\Server::start(): require onReceive/onPacket callback
+
+[2018-06-19 15:32:38] 
+code:2
+file:/var/www/kelp/src/Server/Manager.php
+line:43
+message:Swoole\Server::on(): unknown event types[request]
+
+[2018-06-19 15:33:06] 
+code:4
+file:/var/www/kelp/src/Server/Event.php
+line:39
+message:syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+
+[2018-06-19 15:40:17] 
+code:1
+file:/var/www/kelp/src/Server/Manager.php
+line:49
+message:Swoole\Http\Server::start(): require onRequest callback
+

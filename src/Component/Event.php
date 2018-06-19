@@ -7,7 +7,7 @@
 namespace Kelp\Component;
 
 use Throwable;
-use Kelp\Standard\Singleton;
+use Kelp\Common\Singleton;
 
 class Event
 {
@@ -47,7 +47,7 @@ class Event
     public function set(string $key, $item)
     {
         if(in_array($key, $this->allowKeys) && is_callable($item)) {
-            $this->container[$key][] = $item;
+            $this->container[$key] = $item;
             return true;
         }
         return false;
@@ -60,8 +60,12 @@ class Event
      * @param string $key
      * @return void
      */
-    public function delete(string $key)
+    public function delete(string $key = '')
     {
+        if ('' === $key) {
+            $this->container = [];
+            return true;
+        }
         if(isset($this->container[$key])) {
             unset($this->container[$key]);
             return true;
@@ -79,15 +83,11 @@ class Event
      */
     public function hook($event, ...$args)
     {
-        $calls = $this->get($event);
-        if(is_array($calls)){
-            foreach ($calls as $call){
-                try{
-                    Invoker::callUserFunc($call, ...$args);
-                }catch (Throwable $throwable){
-                    throw $throwable;
-                }
-            }
+        $call = $this->get($event);
+        try{
+            Invoker::callUserFunc($call, ...$args);
+        }catch (Throwable $throwable){
+            throw $throwable;
         }
     }
 }

@@ -5,19 +5,16 @@
 // | Author: qinghecao@outlook.com
 // +----------------------------------------------------------------------
 return [
-    'main'=>[
-        'host'      => '0.0.0.0',
-        'port'      => 9501,
-        'serv_name' => 'KelpServer',
-        'serv_type' => 'http',
-        'daemonize' => false,
-        'sock_type' => SWOOLE_TCP,
-        'run_mode'  => SWOOLE_PROCESS,
-        'setting'   => [
-            'task_worker_num'  => 1,
-            'task_max_request' => 10,
-            'max_request'      => 5000,
-            'worker_num'       => 1,
-        ],
+    'name'    => 'KELP',
+    'setting' => [
+        'backlog'          => 128,
+        'daemonize'        => false,
+        'worker_num'       => 1,
+        'max_request'      => 5000,
+        'max_coro_num'     => 1000,
+        'task_worker_num'  => 1,
+        'task_max_request' => 1000,
+        // 'ssl_key_file'     => '',
+        // 'ssl_cert_file'    => '',
     ],
 ];

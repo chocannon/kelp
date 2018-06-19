@@ -7,7 +7,7 @@
 namespace Kelp\Component;
 
 use ReflectionClass;
-use Kelp\Standard\Singleton;
+use Kelp\Common\Singleton;
 
 class DI
 {
@@ -65,9 +65,13 @@ class DI
      * @param string $key
      * @return void
      */
-    public function delete(string $key)
+    public function delete(string $key = '')
     {
-        unset($this->container[$key]);
+        if ('' === $key) {
+            $this->container = [];
+        } else {
+            unset($this->container[$key]);
+        }
     }
 
 

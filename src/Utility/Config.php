@@ -6,7 +6,7 @@
 // +----------------------------------------------------------------------
 namespace Kelp\Utility;
 
-use Kelp\Standard\Singleton;
+use Kelp\Common\Singleton;
 
 class Config
 {
